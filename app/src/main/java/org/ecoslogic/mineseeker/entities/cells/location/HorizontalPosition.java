@@ -1,6 +1,6 @@
-package org.ecoslogic.mineseeker.entities;
+package org.ecoslogic.mineseeker.entities.cells.location;
 
-class HorizontalPosition {
+public class HorizontalPosition {
     private static byte mHorizontalPositionAsInt;
 
     private HorizontalPosition(byte horizontalPositionAsInt) {

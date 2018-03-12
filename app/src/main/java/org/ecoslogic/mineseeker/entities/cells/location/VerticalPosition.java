@@ -1,6 +1,6 @@
-package org.ecoslogic.mineseeker.entities;
+package org.ecoslogic.mineseeker.entities.cells.location;
 
-class VerticalPosition {
+public class VerticalPosition {
     private byte mCellVerticalPosition;
 
     private VerticalPosition(byte cellVerticalPosition) {

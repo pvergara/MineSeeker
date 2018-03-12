@@ -1,6 +1,6 @@
-package org.ecoslogic.mineseeker.entities;
+package org.ecoslogic.mineseeker.entities.cells.states;
 
-class ClosedAndLocked implements State {
+public class ClosedAndLocked implements State {
     @Override
     public State open() {
         return this;

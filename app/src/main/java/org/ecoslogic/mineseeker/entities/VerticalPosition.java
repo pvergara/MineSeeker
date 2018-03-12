@@ -1,14 +1,14 @@
 package org.ecoslogic.mineseeker.entities;
 
-class CellVPosition {
+class VerticalPosition {
     private byte mCellVerticalPosition;
 
-    private CellVPosition(byte cellVerticalPosition) {
+    private VerticalPosition(byte cellVerticalPosition) {
         mCellVerticalPosition = cellVerticalPosition;
     }
 
-    public static CellVPosition from(byte cellVerticalPosition) {
-        return new CellVPosition(cellVerticalPosition);
+    public static VerticalPosition from(byte cellVerticalPosition) {
+        return new VerticalPosition(cellVerticalPosition);
     }
 
     public byte asByte(){

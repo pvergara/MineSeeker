@@ -3,13 +3,13 @@ package org.ecoslogic.mineseeker.entities;
 import org.ecoslogic.mineseeker.excepitons.CaboomException;
 
 public class Cell {
-    private static final CellHPosition LEFT = CellHPosition.from((byte) 0);
-    private static final CellHPosition MIDDLE = CellHPosition.from((byte) 1);
-    private static final CellHPosition RIGHT = CellHPosition.from((byte) 2);
+    private static final HorizontalPosition LEFT = HorizontalPosition.from((byte) 0);
+    private static final HorizontalPosition MIDDLE = HorizontalPosition.from((byte) 1);
+    private static final HorizontalPosition RIGHT = HorizontalPosition.from((byte) 2);
 
-    private static final CellVPosition TOP = CellVPosition.from((byte) 0);
-    private static final CellVPosition CENTER = CellVPosition.from((byte) 1);
-    private static final CellVPosition BOTTOM = CellVPosition.from((byte) 2);
+    private static final VerticalPosition TOP = VerticalPosition.from((byte) 0);
+    private static final VerticalPosition CENTER = VerticalPosition.from((byte) 1);
+    private static final VerticalPosition BOTTOM = VerticalPosition.from((byte) 2);
 
     private State mCurrentState;
     private boolean mHasMine;

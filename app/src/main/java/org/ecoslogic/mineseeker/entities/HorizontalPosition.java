@@ -1,14 +1,14 @@
 package org.ecoslogic.mineseeker.entities;
 
-class CellHPosition {
+class HorizontalPosition {
     private static byte mHorizontalPositionAsInt;
 
-    private CellHPosition(byte horizontalPositionAsInt) {
+    private HorizontalPosition(byte horizontalPositionAsInt) {
         mHorizontalPositionAsInt = horizontalPositionAsInt;
     }
 
-    public static CellHPosition from(byte HorizontalPositionAsInt) {
-        return new CellHPosition(HorizontalPositionAsInt);
+    public static HorizontalPosition from(byte HorizontalPositionAsInt) {
+        return new HorizontalPosition(HorizontalPositionAsInt);
     }
 
     public byte asByte(){

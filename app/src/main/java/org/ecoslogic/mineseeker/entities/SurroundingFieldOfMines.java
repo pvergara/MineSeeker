@@ -1,7 +1,7 @@
 package org.ecoslogic.mineseeker.entities;
 
 class SurroundingFieldOfMines {
-    public boolean hasMine(CellVPosition cellVPosition, CellHPosition cellHPosition) {
+    boolean hasMine(VerticalPosition verticalPosition, HorizontalPosition horizontalPosition) {
         return false;
     }
 }
